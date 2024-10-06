@@ -22,6 +22,7 @@
       <list>
         <option value="Go File" />
         <option value="JSX File" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -41,6 +42,10 @@
     &quot;accountId&quot;: &quot;3b4cc155-829e-4ab1-8113-fc9c288a8e9c&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -53,13 +58,14 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
     &quot;Go Build.go build github.com/Constantine-Ka/oldfile-remover.executor&quot;: &quot;Run&quot;,
     &quot;Go Build.пусто.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/2024&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -68,7 +74,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Build.пусто">
+  <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="пусто" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="oldfile-remover" />
       <working_directory value="$PROJECT_DIR$" />
@@ -108,12 +114,28 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Docker.Dockerfile" />
       <item itemvalue="Go Build.пусто" />
       <item itemvalue="Go Build.go build github.com/Constantine-Ka/oldfile-remover" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Go Build.go build github.com/Constantine-Ka/oldfile-remover" />
       </list>
     </recent_temporary>
@@ -129,6 +151,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создано" />
