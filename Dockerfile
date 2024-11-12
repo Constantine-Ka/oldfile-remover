@@ -1,8 +1,8 @@
 FROM golang:1.15-alpine3.12 as builder
 
-RUN mkdir /go/src/hello
+RUN mkdir /go/src/oldfile
 
-WORKDIR /go/src/hello
+WORKDIR /go/src/oldfile
 
 #install nano, zip and git
 RUN apk add nano zip
